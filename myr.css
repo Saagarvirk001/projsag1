@@ -1,0 +1,142 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgba(0, 0, 0, 0.587);
+    display: ruby;
+    float: right;
+    backdrop-filter: blur(10px);
+    justify-content: space-between;
+    align-items: center;
+    z-index: 50;
+}
+#logo
+/* # is used because in HTML code i have used ID to represnt logo */
+{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3;
+}
+#logo:hover{
+    color: orangered;
+    text-shadow: 0 0 25px orangered, 
+                 0 0 25px orangered;
+    transform: scale(1.1);
+    text-decoration: none;
+
+}
+span{
+    color: orangered;
+}
+
+#nav a{
+    font-size: 18px;
+    color: white;
+    padding: 0px 30px;
+    font-weight: 500;
+    margin: 0 20px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    border-bottom: 3px solid transparent;
+    transition: 0.3;
+}
+#nav a:hover
+{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+
+#edu{
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(241, 241, 241);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+#edu-my{
+    max-width: 800px;
+}
+
+#edu-my h2{
+    font-size: 50px;
+}
+
+#edu-my h3{
+    font-size: 30px;
+    line-height: 1.2;
+
+}
+
+#work{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-content: center;
+    gap: 7em;
+    padding: 200px 12% 0;
+    background: black;
+}
+#heading{
+       padding: 30px ;
+}
+
+#work-exp h2{
+    color: white;
+    font-size: 60px;
+}
+#work-exp h3{
+    font-size: 80px;
+    color: white;
+}
+#work-exp h3{
+    color: white;
+    font-size: 42px;
+    margin: 2em 0 3em;
+}
+
+#hu{
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(230, 166, 102, 0.457);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+#hu-content{
+    max-width: 800px;
+}
+
+#hu-content h3{
+    font-size: 42px;
+    
+}
+
+#hu-content h2{
+    font-size: 52px;
+    line-height: 1.2;
+}
+
+#footer
+{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background-color: white;
+}
+#footer .copyright{
+   margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}

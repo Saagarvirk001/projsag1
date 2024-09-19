@@ -1,0 +1,139 @@
+.header{
+    /* .header is used because we used CLASS in that html code
+    -> header represents the bar in website with logo and navigation bar */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgba(0, 0, 0, 0.587);
+    display: ruby;
+    float: right;
+    backdrop-filter: blur(10px);
+    justify-content: space-between;
+    align-items: center;
+    z-index: 50;
+}
+.logo
+/* this is used for logo styling that is SAAGAR VIRK on website */
+{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3;
+}
+.logo:hover{
+    /* hover is used when user bring cursor on that logo it will glow in orangered color and provide shadow as well */
+    color: orangered;
+    text-shadow: 0 0 25px orangered, 
+                 0 0 25px orangered;
+    transform: scale(1.1);
+    text-decoration: none;
+
+}
+span{
+    /* span(is used to mark up a part of text) like in this span part text will have orangered color in website */
+    color: orangered;
+}
+
+.navi a{
+    /* This is styling for navigation bar in which content like home page, Introduction, skill */
+    font-size: 18px;
+    color: white;
+    padding: 0px 30px;
+    font-weight: 500;
+    margin: 0 20px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    border-bottom: 3px solid transparent;
+    transition: 0.3;
+}
+.navi a:hover
+/* hover is used when user bring cursor on that content it will show underline orangered color */
+{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+
+.into{
+    /* styling for introduction section of the page */
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(241, 241, 241);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.into-my{
+    max-width: 800px;
+}
+
+.into-my h3{
+    font-size: 42px;
+}
+
+.into-my h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+
+.img-box img{
+    /* styling for image in the website that how it should be visible */
+    border-radius: 50%;
+    width: 550px;
+}
+
+.skill{
+    /* styling for skill section of the page */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 12% 8%;
+    gap: 10em;
+    padding: 30px 12% 0;
+    background: black;
+}
+.skill-img img{
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px orangered,
+                0 0 50px orangered;
+    border-radius: 50%;
+}
+
+.skill-me h2{
+    text-align: left;
+    color: white;
+    font-size: 42px;
+}
+.skill-me h3{
+    font-size: 62px;
+    color: white;
+}
+.skill-me ol{
+    /* styling for ordered list in skill section */
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+.footer
+{
+    /* styling for footer that is bottom of the page */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background-color: white;
+}
+.footer .copyright{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
